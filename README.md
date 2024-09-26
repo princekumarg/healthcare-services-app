@@ -12,27 +12,6 @@ This is a simple Svelte web application that allows users to display, add, updat
 - Simple form validation for adding services.
 - Basic CSS for styling.
 
-## Demo
-
-[Live Demo](#link-to-deployed-app)  
-(Replace this link with the URL after deployment.)
-
----
-
-## Table of Contents
-
-- [Features](#features)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Project Structure](#project-structure)
-- [Deploying the App](#deploying-the-app)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## Getting Started
 
 Follow these instructions to set up the project on your local machine.
@@ -57,15 +36,16 @@ cd healthcare-services-app
 npm install
 npm run dev
 ```
-
+```
 .
 ├── public # Static files
-│ └── index.html # Entry HTML file
+│ └── index.html
 ├── src
-│ ├── App.svelte # Main app component
-│ ├── components # Reusable components
+│ ├── App.svelte
+│ ├── components
 │ │ ├── AddService.svelte
 │ │ └── ServiceList.svelte
-│ └── main.js # Entry point for Svelte app
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Lock file for dependencies
+│ └── main.js 
+├── package.json 
+├── package-lock.json
+```
